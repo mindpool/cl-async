@@ -41,13 +41,13 @@ Documentation
 The documentation is split into a few main sections.
 
 - [__Function and class documentation__](../../wiki/Functions-and-Classes)
-- [__Conditions and events__](wiki/Conditions-and-Events)
-- [__Event callbacks and error handling__](wiki/Callbacks)
-- [__Examples__](wiki/Examples)
-- [__Benchmarks__](wiki/Benchmarks)
-- [__Implementation notes__](wiki/Implementation-Notes)
-- [__Drivers__](wiki/Drivers)
-- [__License__](wiki/License)
+- [__Conditions and events__](../../wiki/Conditions-and-Events)
+- [__Event callbacks and error handling__](../../wiki/Callbacks)
+- [__Examples__](../../wiki/Examples)
+- [__Benchmarks__](../../wiki/Benchmarks)
+- [__Implementation notes__](../../wiki/Implementation-Notes)
+- [__Drivers__](../../wiki/Drivers)
+- [__License__](../../wiki/License)
 
 
 Known Issues
