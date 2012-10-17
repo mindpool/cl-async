@@ -1,4 +1,4 @@
-cl-async - Asynchronous operations for Common Lisp
+cl-async - Asynchronous Operations for Common Lisp
 ==================================================
 
 cl-async provides an event loop for Common Lisp using bindings for the
@@ -9,7 +9,20 @@ C library. This brings modern asynchronous programming to Lisp.
 Quick Start
 -----------
 
-TBD
+Callback on a signal:
+
+```common-lisp
+```
+
+Callback on a file write:
+
+```common-lisp
+```
+
+Callback on a socket write:
+
+```common-lisp
+```
 
 
 About the Project
