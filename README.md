@@ -10,13 +10,26 @@ Setup
 
 **SBCL on On Mac OS X**
 
-Install the libevent2 Lisp library:
+Install libevent:
+```unix-shell
+$ brew install libevent
+```
+
+Load the libevent2 Lisp library:
 ```unix-shell
 $ git clone https://github.com/orthecreedence/cl-async.git
-$ cd cl-async/libevent2
+$ cd cl-async
 $ sbcl
-> (require 'asdf)
-> (asdf:operate 'asdf:load-op :libevent2)
+> (push #p"./libevent2/" asdf:*central-registry*)
+> (ql:quickload "libevent2")
+```
+
+You can also install the libevent2 library, if you prefer:
+```unix-shell
+$ tar cvzf libevent2.tgz ./libevent2
+$ sbcl
+> (require 'asdf-install)
+> (asdf-install:install "libevent2.tgz")
 ```
 
 Quick Start
