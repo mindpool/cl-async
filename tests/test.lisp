@@ -1,5 +1,5 @@
 (require 'asdf)
-(asdf:operate 'asdf:load-op :cl-event)
+(asdf:operate 'asdf:load-op :cl-async)
 (ql:quickload "usocket")
 (ql:quickload "xlunit")
 (ql:quickload "osicat")
