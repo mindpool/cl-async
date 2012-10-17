@@ -1,6 +1,10 @@
 cl-async - Asynchronous operations for Common Lisp
 ==================================================
 
+cl-async provides an event loop for Common Lisp using bindings for the
+[Libevent](http://libevent.org/)
+C library. This brings modern asynchronous programming to Lisp.
+
 
 Quick Start
 -----------
@@ -36,14 +40,14 @@ Documentation
 
 The documentation is split into a few main sections.
 
-- [__Function and class documentation__](Functions and Classes)
-- [__Conditions and events__](Conditions and Events)
-- [__Event callbacks and error handling__](Callbacks)
-- [__Examples__](Examples)
-- [__Benchmarks__](Benchmarks)
-- [__Implementation notes__](Implementation Notes)
-- [__Drivers__](Drivers)
-- [__License__](License)
+- [__Function and class documentation__](wiki/Functions-and-Classes)
+- [__Conditions and events__](wiki/Conditions-and-Events)
+- [__Event callbacks and error handling__](wiki/Callbacks)
+- [__Examples__](wiki/Examples)
+- [__Benchmarks__](wiki/Benchmarks)
+- [__Implementation notes__](wiki/Implementation-Notes)
+- [__Drivers__](wiki/Drivers)
+- [__License__](wiki/License)
 
 
 Known Issues
