@@ -40,7 +40,7 @@ Documentation
 
 The documentation is split into a few main sections.
 
-- [__Function and class documentation__](wiki/Functions-and-Classes)
+- [__Function and class documentation__](../../wiki/Functions-and-Classes)
 - [__Conditions and events__](wiki/Conditions-and-Events)
 - [__Event callbacks and error handling__](wiki/Callbacks)
 - [__Examples__](wiki/Examples)
