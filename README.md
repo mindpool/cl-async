@@ -5,6 +5,19 @@ cl-async provides an event loop for Common Lisp using bindings for the
 [Libevent](http://libevent.org/)
 C library. This brings modern asynchronous programming to Lisp.
 
+Setup
+-----
+
+**SBCL on On Mac OS X**
+
+Install the libevent2 Lisp library:
+```unix-shell
+$ git clone https://github.com/orthecreedence/cl-async.git
+$ cd cl-async/libevent2
+$ sbcl
+> (require 'asdf)
+> (asdf:operate 'asdf:load-op :libevent2)
+```
 
 Quick Start
 -----------
