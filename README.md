@@ -38,6 +38,20 @@ Quick Start
 Callback on a signal:
 
 ```common-lisp
+(ql:quickload "cl-async")
+
+;; define a callback for our signal
+(defun sigint-cb (signal-received)
+  (format t "~a" "You interrupted me!")
+  (format t "I got signal `~a`" signal-received)
+  (as:exit-event-loop))
+
+;; set up a signal handler
+(defun setup-handler ()
+  (as:signal-handler as:+sigint+ #'sigint-cb))
+
+;; start the event loop
+(as:start-event-loop #'setup-handler)
 ```
 
 Callback on a file write:
