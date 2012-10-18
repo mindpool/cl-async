@@ -42,8 +42,8 @@ Callback on a signal:
 
 ;; define a callback for our signal
 (defun sigint-cb (signal-received)
-  (format t "~a" "You interrupted me!")
-  (format t "I got signal `~a`" signal-received)
+  (format t "You interrupted me!~%")
+  (format t "I got signal `~a`~%" signal-received)
   (as:exit-event-loop))
 
 ;; set up a signal handler
