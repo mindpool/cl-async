@@ -35,7 +35,7 @@ $ sbcl
 Quick Start
 -----------
 
-Callback on a signal:
+**Callback on a Signal**
 
 ```common-lisp
 (ql:quickload "cl-async")
@@ -54,12 +54,16 @@ Callback on a signal:
 (as:start-event-loop #'setup-handler)
 ```
 
-Callback on a file write:
+When you run this (either as a script or via the REPL), you can fire the signal
+off by sending an interrupt (^C). At which point, you will see the output from
+the sigint callback.
+
+**Callback on a File Write**
 
 ```common-lisp
 ```
 
-Callback on a socket write:
+**Callback on a Socket Write**
 
 ```common-lisp
 ```
